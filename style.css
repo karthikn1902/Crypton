@@ -1,0 +1,217 @@
+.header{
+    position: relative;
+    flex: 1 1 0%;
+    
+}
+
+.header ul li{
+    display: inline-block;
+    position: relative;
+    color: #2e2e5d;
+    font-size: medium;
+    list-style: none;
+    padding: 8px 12px;
+   margin-left: 2%;
+   margin-right: 30px;
+   
+}
+
+#join{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(206, 208, 211);
+    border-radius: 30px;
+}
+
+#upshift{
+    font-size: xx-large;
+    font-weight: 500;
+    margin: 0%;
+    text-shadow:#424244;
+    padding: 2%;
+    padding-right: 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #51518c;
+}
+
+#business{
+    padding-right: 5%;
+}
+
+#us{
+    padding-right: 4%;
+}
+
+#join{
+    text-align: right;
+}
+
+.content{
+    text-indent: 10px;
+    font-weight: 545;
+    color: #282869;
+    padding: 2%;
+    margin: 2%;
+    padding-left: 25px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    #para{
+        font-size: medium;
+    }
+    #get{
+        display: inline-block;
+
+    }
+}
+
+.front
+{
+    background-color: rgb(246, 246, 248);
+}
+
+.form {
+    --width-of-input: 300px;
+    --border-height: 1px;
+    --border-before-color: rgba(80, 119, 163, 0.39);
+    --border-after-color: #3a5a9c;
+    --input-hovered-color: #4985e01f;
+    position: relative;
+    width: var(--width-of-input);
+   }
+   
+   .input {
+    color: #4f6587;
+    font-size: small;
+    background-color: transparent;
+    width: 90%;
+    box-sizing: border-box;
+    padding-inline: 2px;
+    padding-block: 5px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: var(--border-height) solid var(--border-before-color);
+   }
+   
+   .input-border {
+    position: absolute;
+    background: var(--border-after-color);
+    width: 0%;
+    height: 4px;
+    bottom: 2;
+    left: 0;
+    transition: 0.3s;
+   }
+   
+   input:focus {
+    outline: none;
+   }
+   
+   
+button {
+    color: #ffffff;
+    padding: 15px 25px;
+    font-size: 15px;
+    border-radius: 0.em;
+    background: #6d6d8c;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    border-radius: 30px;
+    position: relative;
+    display: inline-block;
+    bottom: 50px;
+    left: 350px;
+  }
+  
+  button:hover {
+    border: 1px solid white;
+  }
+  
+  button:active {
+    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+  }
+  
+@media screen and (max-width: 649px) {
+    .front{
+        width: 100%;
+    }
+
+    .header{
+        position: relative;
+        font-size: 0.5px;
+        text-indent: 5px;
+
+        #upshift{
+            font-size: medium;
+            padding: 0px;
+        }
+
+        #business{
+            padding: 0%;
+            text-align: center;
+        }
+    }
+    button {
+        color: #ffffff;
+        padding: 10px 15px;
+        font-size: 10px;
+        border-radius: 0.em;
+        background: #6d6d8c;
+        cursor: pointer;
+        border: 1px solid #e8e8e8;
+        transition: all 0.3s;
+        border-radius: 30px;
+        position: relative;
+        display: inline-block;
+        bottom: 40px;
+        left: 200px;
+      }
+
+      .content{
+        font-size: 25px;
+        #para{
+            font-size: small;
+        }
+      }
+
+      .form {
+        --width-of-input: 200px;
+        --border-height: 1px;
+        --border-before-color: rgba(80, 119, 163, 0.39);
+        --border-after-color: #3a5a9c;
+        --input-hovered-color: #4985e01f;
+        position: relative;
+        width: var(--width-of-input);
+       }
+       
+       .input {
+        color: #4f6587;
+        font-size: 10px;
+        background-color: transparent;
+        width: 90%;
+        margin: 15px;
+        bottom: 200px;
+        box-sizing: border-box;
+        padding-inline: 2px;
+        padding-block: 5px;
+        padding-bottom: 10px;
+        border: none;
+        border-bottom: var(--border-height) solid var(--border-before-color);
+       }
+       
+       .input-border {
+        position: absolute;
+        background: var(--border-after-color);
+        width: 0%;
+        height: 4px;
+        bottom: 2;
+        left: 0;
+        transition: 0.3s;
+       }
+       
+       input:focus {
+        outline: none;
+       }
+       
+}
