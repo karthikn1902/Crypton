@@ -11,9 +11,22 @@
     font-size: medium;
     list-style: none;
     padding: 8px 12px;
+    padding-top: 2%;
    margin-left: 2%;
    margin-right: 30px;
    
+}
+
+.header ul li::before{
+	content: '';
+	width:0%;
+	height:2px;
+	background:rgb(146, 146, 209);
+	display: block;
+	transition:0.4s;
+}
+.header ul li:hover::before{
+	width:100%;
 }
 
 #join{
@@ -109,7 +122,7 @@
    }
    
    
-button {
+.butt {
     color: #ffffff;
     padding: 15px 25px;
     font-size: 15px;
@@ -125,11 +138,11 @@ button {
     left: 350px;
   }
   
-  button:hover {
+  .butt:hover {
     border: 1px solid white;
   }
   
-  button:active {
+  .butt:active {
     box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
   }
   
@@ -342,6 +355,7 @@ button {
     float: right;
     line-height: 30px;
     margin-right: 15px;
+    
     #m{
         display: inline-block;
         border: 1px solid rgb(114, 114, 142);
@@ -370,24 +384,105 @@ button {
    margin-left: 2%;
    margin-right: 0px;
    top: 300;
-   padding-left: 1%;
-   padding-right: 1%;
+   padding-left: 12px;
+   padding-right: 15px;
+   line-height: 25px;
+   left: 100;
 
   #i{
     display: inline-block;
     font-size: large;
         border: 1px solid rgb(199, 199, 208);
-        padding-top: 12px;
-        padding-bottom: 12px;
-        padding-left: 18px;
-        padding-right: 18px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 28px;
+        padding-right: 28px;
        border-radius: 100%;
        background-color: rgb(199, 199, 208);
        color: white;
   }
-
-  
 }
+
+.third{
+    position: relative;
+    flex: 1 1 0%;
+}
+
+.third ul li::before{
+	content: '';
+	width:0%;
+	height:2px;
+	background:rgb(114, 114, 142);
+	display: block;
+	transition:0.4s;
+}
+.third ul li:hover::before{
+	width:100%;
+}
+
+.third ul li{
+    display: inline-block;
+    position: relative;
+    border: 2px solid rgb(213, 216, 218);
+    color: #2e2e5d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding: 8px 12px;
+   margin-left: 2%;
+   margin-right: 30px;
+   top: 400;
+   left: 280;
+   line-height: 30px;
+   padding-left: 10;
+   padding-right: 10px;
+   padding: 10px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+
+   #dollar{
+    font-size: xx-large;
+    font-weight: 500;
+   }
+   #btn{
+        color: #ffffff;
+        padding: 15px 25px;
+        font-size: 15px;
+        border-radius: 0.em;
+        background: #6d6d8c;
+        cursor: pointer;
+        border: 1px solid #e8e8e8;
+        transition: all 0.3s;
+        border-radius: 30px;
+        position: relative;
+        display: inline-block;
+       
+      }
+      
+      #btn:hover {
+        border: 1px solid white;
+      }
+      
+     #btn:active {
+        box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+      }
+
+      #rec{
+        font-size: small;
+      }
+   }
+
+ .third ul li:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+
 @media screen and (max-width: 649px) {
     .front{
         width: 100%;
