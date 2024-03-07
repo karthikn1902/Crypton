@@ -483,6 +483,217 @@
  }
 
 
+
+
+.fourth{
+
+    #the{
+        position: relative;
+        display: inline-block;
+        color: #282869;
+        top: 700;
+        left: 200;
+        line-height: 30px;
+        font-size: large;
+
+        #three{
+            font-size: small
+        }
+    }
+
+    #o{
+        position: relative;
+        display: inline-block;
+        float: right;
+        top: 500;
+
+        #q{
+            display: inline-block;
+    color: #f4f4f9;
+    position: relative;
+    border: 0px solid rgb(246, 246, 248);
+    font-size: 150px;
+    font-weight: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-bottom: 18%;
+    padding-top: 10%;
+    background-color:rgb(114, 114, 142);
+        }
+
+        #r{
+            display: inline-block;
+    color: #fdfdff;
+    position: relative;
+    border: 0px solid rgb(246, 246, 248);
+    font-size: 160px;
+    font-weight: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    bottom: 20;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15%;
+    padding-top: 2%;
+    background-color: rgb(114, 114, 142);
+        }
+
+    #s{
+    display: inline-block;
+    color: #f9f9ff;
+    position: relative;
+    border: 0px solid rgb(246, 246, 248);
+    font-size: 130px;
+    font-weight: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 9%;
+    padding-top: 3%;
+    bottom: 385;
+    left: 280;
+    background-color: rgb(114, 114, 142);
+    }
+    }
+
+    #instant{
+        position: relative;
+        color: #282869;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: larger;
+        top: 900;
+        margin-left: 15%;
+        line-height: 40px;
+    }
+
+    #bot{
+        position: relative;
+        color: #ffffff;
+        padding: 15px 25px;
+        font-size: 15px;
+        padding-left: 6%;
+        padding-right: 6%;
+        float: right;
+        border-radius: 0.em;
+        background: #6d6d8c;
+        cursor: pointer;
+        border: 1px solid #e8e8e8;
+        transition: all 0.3s;
+        border-radius: 30px;
+        display: inline-block;
+        bottom: 95;
+        left: 400;
+      }
+      
+      #bot:hover {
+        border: 1px solid white;
+      }
+      
+     #bot:active {
+        box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+      }
+
+      #un{
+        position: relative;
+        opacity: 0.3;
+        top: 450;
+        margin-left: 15%;
+      }
+
+      #final{
+        position: relative;
+        flex: 1 1 0%
+      }
+
+      #final ul li{
+        display: inline-block;
+        position: relative;
+        color: #2e2e5d;
+        font-size: medium;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 600;
+        text-align: center;
+        list-style: none;
+        padding: 8px 10px;
+        padding-top: 2%;
+        padding-right: 2%;
+        margin-left: 11%;
+        top: 500;
+        line-height: 15px;
+      }
+        
+
+        #send{
+            position: relative;
+            display: inline-block;
+            border-radius: 100%;
+            background-color: #2e2e5d;
+            color: white;
+        }
+
+        #com{
+            position: relative;
+            right: 25;
+        }
+
+        #hel{
+            position: relative;
+            right: 40 ;
+        }
+
+        #sta{
+            position: relative;
+            right: 60;
+        }
+
+        #our{
+            position: relative;
+            left: 20;
+        }
+   
+    }
+
+    #last{
+        position: relative;
+        flex: 1 1 0;
+
+    }
+
+    #last ul li{
+        display: inline-block;
+        position: relative;
+        color: #2e2e5d;
+        font-size: x-large;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 600;
+        text-align: center;
+        list-style: none;
+        padding: 8px 10px;
+        padding-top: 2%;
+        padding-right: 2%;
+        margin-left: 10%;
+        top: 500;
+        line-height: 15px;
+        text-align: center;
+        padding-left: 100;
+        }
+
+        #upshift1{
+           position: relative;
+            font-size: 100%;
+           font-weight: 500;
+           margin: 0%;
+           text-shadow:#424244;
+           padding: 2%;
+           padding-right: 5%;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           color: #51518c;
+       }
+
+
 @media screen and (max-width: 649px) {
     .front{
         width: 100%;
